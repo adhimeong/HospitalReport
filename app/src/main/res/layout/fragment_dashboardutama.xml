@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="2dp"
+    tools:context="id.sch.smkn13bdg.adhi.hospitalreport.DashboardUtamaFragment">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2.5dp"
+
+        android:padding="1dp"
+        android:id="@+id/dasbordkunjungan">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="14sp"
+            android:text="Kunjungan Pasien Saat Ini Adalah :"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimaryText"/>
+
+        <TextView
+            android:id="@+id/totalkunjungantxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="38sp"
+            android:text="678 Orang"
+            android:textSize="12sp"
+            android:textColor="@color/colorSecondaryText"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2.5dp"
+        android:layout_marginBottom="2.5dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recyclekunjungan">
+        </android.support.v7.widget.RecyclerView>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2.5dp"
+        android:layout_marginBottom="2.5dp"
+        android:padding="1dp"
+        android:id="@+id/dasbordpendapatan">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="14sp"
+            android:text="Pendapatan Saat Ini Adalah :"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimaryText"/>
+
+        <TextView
+            android:id="@+id/totalpendapatantxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="38sp"
+            android:text="45.870.000"
+            android:textSize="12sp"
+            android:textColor="@color/colorSecondaryText"/>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2.5dp"
+        android:layout_marginBottom="2.5dp"
+        android:padding="18dp">
+        <com.github.mikephil.charting.charts.LineChart
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            android:id="@+id/linechartrekappendapatan">
+        </com.github.mikephil.charting.charts.LineChart>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

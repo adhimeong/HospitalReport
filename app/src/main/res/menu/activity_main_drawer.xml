@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Dashboard">
+        <menu>
+            <item
+                android:id="@+id/dasbordutama"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="Halaman Utama" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/kunjungan"
+            android:icon="@drawable/ic_menu_kedatangan"
+            android:title="Kunjungan" />
+        <item
+            android:id="@+id/pendapatan"
+            android:icon="@drawable/ic_menu_pendapatan"
+            android:title="Pendapatan" />
+        <item
+            android:id="@+id/penyakit"
+            android:icon="@drawable/ic_menu_penyakit"
+            android:title="10 Besar penyakit" />
+        <item
+            android:id="@+id/fastmoving"
+            android:icon="@drawable/ic_menu_fastmoving"
+            android:title="Fastmoving" />
+        <item
+            android:id="@+id/slowmoving"
+            android:icon="@drawable/ic_menu_slowmoving"
+            android:title="Slowmoving" />
+    </group>
+
+    <item android:title="UMUM">
+        <menu>
+            <item
+                android:id="@+id/indexrumahsakit"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Index Rumah Sakit" />
+            <item
+                android:id="@+id/pengaturan"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Pengaturan" />
+        </menu>
+    </item>
+
+</menu>

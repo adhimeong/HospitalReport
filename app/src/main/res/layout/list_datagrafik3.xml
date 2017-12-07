@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/klikpenyakit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0.5dp"
+    android:padding="1dp">
+
+    <TextView
+        android:id="@+id/labelgrafik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="58dp"
+        android:text="Label"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/nilaigrafik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="110dp"
+        android:text="Nilai"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="12sp"/>
+
+</RelativeLayout>

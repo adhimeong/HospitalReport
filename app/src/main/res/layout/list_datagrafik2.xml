@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="115dp"
+    android:layout_height="wrap_content"
+    android:padding="7dp"
+    android:layout_margin="4dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelgrafik"
+        android:textColor="@color/colorPrimaryText"
+        android:text="Label"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/klikkinjungan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/labelgrafik"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        android:textColor="@color/colorSecondaryText"
+        android:text="Pendapatan : " />
+
+    <TextView
+        android:id="@+id/nilaigrafik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/klikkinjungan"
+        android:layout_marginTop="2dp"
+        android:textStyle="bold"
+        android:text="Nilai"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="14sp" />
+
+
+</RelativeLayout>
