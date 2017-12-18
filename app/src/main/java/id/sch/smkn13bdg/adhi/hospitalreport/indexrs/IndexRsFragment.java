@@ -80,7 +80,7 @@ public class IndexRsFragment extends Fragment {
                     return true;
                 case R.id.navigation_notifications:
 
-                    GrafikIndex12Fragment fragment3 = new GrafikIndex12Fragment();
+                    BarberJohnsonFragment fragment3 = new BarberJohnsonFragment();
                     FragmentManager fragmentManager3 = getFragmentManager();
                     FragmentTransaction fragmentTransaction3 = fragmentManager3.beginTransaction();
                     fragmentTransaction3.replace(R.id.frame_layout, fragment3);
